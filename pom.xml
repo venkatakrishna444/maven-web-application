@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>maven Release Nexus Repository</name>
-	      <url>http://13.235.133.35:8081/repository/wallmart_release/</url>
+	      <url>http://65.0.177.134:8081/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>maven Snapshot Nexus Repository </name>
-	      <url>http://13.235.133.35:8081/repository/wallmart_snapshot/</url>
+	      <url>http://65.0.177.134:8081/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
