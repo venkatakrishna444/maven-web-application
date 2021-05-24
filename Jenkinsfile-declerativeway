@@ -12,11 +12,13 @@ steps{
 git credentialsId: '8eb0ee47-cf02-4ddf-8957-449dd74c3ecc', url: 'https://github.com/venkatakrishna444/maven-standalone-application.git'
 }
 }
+/*
 stage("buildmavenpackage"){
 steps{
 sh "mvn clean package"
 }
 }
+*/
 stage("executesonarqubereport"){
 steps{
 sh "mvn clean sonar:sonar"
