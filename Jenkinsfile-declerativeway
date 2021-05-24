@@ -5,6 +5,7 @@ maven "maven3.6.2"
 }
 options{
 timestamps()
+cleanWs()
 }
 stages{
 stage("gitcheckoutcode"){
